@@ -23,8 +23,7 @@ Compile o aplicativo Go:
 #Gere a imagem
 docker build -t hello-world-go .
 
-#Execute o container
-docker run --rm hello-world-go
+
 
 #tagueie a imagem
 docker tag hello-world-go seu-usuario/hello-world-go
@@ -36,9 +35,13 @@ docker login
 docker push seu-usuario/hello-world-go
 
 #Realizar o pull da imagem
-docker push andrebezerramarinho/fullcycle:latest
+docker pull andrebezerramarinho/fullcycle:latest
 
+#Execute o container
+docker run --rm andrebezerramarinho/fullcycle:latest
 
+#A saída esperada é:
+Full Cycle Rocks!!
 
 ```
 
