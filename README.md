@@ -35,6 +35,10 @@ docker login
 #Subindo a imagem para o docker hub
 docker push seu-usuario/hello-world-go
 
+#Realizar o pull da imagem
+docker push andrebezerramarinho/helloworld:latest
+
+
 
 ```
 
