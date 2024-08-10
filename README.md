@@ -36,7 +36,7 @@ docker login
 docker push seu-usuario/hello-world-go
 
 #Realizar o pull da imagem
-docker push andrebezerramarinho/helloworld:latest
+docker push andrebezerramarinho/fullcycle:latest
 
 
 
